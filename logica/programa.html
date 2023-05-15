@@ -1,0 +1,49 @@
+<meta charset="utf-8">
+
+<script>
+
+	function pulaLinha (){
+
+		document.write("<br><br>")
+
+	}
+
+	function mostra (exibeTexto){
+
+		document.write(exibeTexto);
+		pulaLinha();
+		pulaLinha();
+		pulaLinha();
+	}
+
+	var ano = 2023;
+	
+
+	
+	document.write("Andrey tem " + (ano - 1992) + " anos");
+	pulaLinha();
+	document.write("Mirele tem " + (ano - 1999) + " anos");
+	pulaLinha();
+	
+
+	ano = 2020
+	mostra("Erick tem " + (ano - 1994) + " anos");
+
+	mostra("Teste mostra");
+	pulaLinha();
+
+
+	var idadeAndrey = 31
+	var idadeMirele = 24
+	var idadeErick = 28
+
+	var media = ((idadeAndrey + idadeMirele + idadeErick )/3);
+
+	document.write("A media das idades é : " + Math.round(media));
+	document.write("<br>");
+
+	var nome = 'Andrey';
+
+	document.write("A idade de " + nome + " é "+ idadeAndrey);
+	
+</script>
